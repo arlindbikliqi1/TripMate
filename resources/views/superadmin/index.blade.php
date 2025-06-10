@@ -1,18 +1,4 @@
-<x-app-layout>
-    <div x-data="userSearch()" class="px-4 sm:px-10 lg:px-20 mx-auto ">
-        <div class="w-full flex justify-center items-center mb-3 mt-5 ">
-            <div class="flex gap-1 bg-gray-300 px-0 py-0 rounded-full shadow-sm relative mt-5 w-full sm:w-auto">
-                <button @click="currentTab = 'users'" :class="currentTab === 'users' ? 'bg-white text-gray-700  shadow-md' : 'bg-gray-300 text-white'" class="flex-1 sm:flex-none px-6 sm:px-12 lg:px-20 py-2 rounded-full text-xs sm:text-sm lg:text-base font-semibold transition-all duration-300 text-center">
-                    Users
-                </button>
-                <button @click="currentTab = 'bookings'" :class="currentTab === 'bookings' ? 'bg-white text-gray-700  shadow-md' : 'bg-gray-300 text-white'" class="flex-1 sm:flex-none px-6 sm:px-12 lg:px-20 py-2 rounded-full text-xs sm:text-sm lg:text-base font-semibold transition-all duration-300 text-center">
-                    Bookings
-                </button>
-                <button @click="currentTab = 'trips'" :class="currentTab === 'trips' ? 'bg-white text-gray-700 shadow-md' : 'bg-gray-300 text-white'" class="flex-1 sm:flex-none px-6 sm:px-12 lg:px-20 py-2 rounded-full text-xs sm:text-sm lg:text-base font-semibold transition-all duration-300 text-center">
-                    Trips
-                </button>
-            </div>
-        </div>
+
 
         
         <div class="border-t border-gray-300 mx-auto w-full rounded-full"></div>

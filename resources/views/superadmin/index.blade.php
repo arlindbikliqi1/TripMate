@@ -17,11 +17,7 @@
         
         <div class="border-t border-gray-300 mx-auto w-full rounded-full"></div>
 
-        <div class="w-full flex justify-left items-center mb-3 mt-5 ">
-            <div class="mx-3">
-                <div class="w-full max-w-sm min-w-20 relative">
-                    <div class="relative">
-                        <input
+       
                                 class="bg-white w-full pr-11 h-8 pl-3 py-2 bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-full transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md"
                                 id="search"
                                 name="search"

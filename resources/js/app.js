@@ -13,8 +13,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import './qr-code';
 
-import Alpine from 'alpinejs';
-import Intersect from '@alpinejs/intersect';
+
 
 import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
